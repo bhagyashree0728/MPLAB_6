@@ -1,0 +1,85 @@
+name: lab6
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.4.0
+  animated_widgets: ^1.1.0
+  flutter_tts: ^4.2.2
+  animate_do: ^4.2.0
+  shared_preferences: ^2.5.3
+  flutter_animate: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Alphabets
+    - assets/alphabets/A.png
+    - assets/alphabets/B.png
+    - assets/alphabets/C.png
+    - assets/alphabets/D.png
+    - assets/alphabets/E.png
+    - assets/alphabets/F.png
+    - assets/alphabets/G.png
+    - assets/alphabets/H.png
+    - assets/alphabets/I.png
+    - assets/alphabets/J.png
+    - assets/alphabets/K.png
+    - assets/alphabets/L.png
+    - assets/alphabets/M.png
+    - assets/alphabets/N.png
+    - assets/alphabets/O.png
+    - assets/alphabets/P.png
+    - assets/alphabets/Q.png
+    - assets/alphabets/R.png
+    - assets/alphabets/S.png
+    - assets/alphabets/T.png
+    - assets/alphabets/U.png
+    - assets/alphabets/V.png
+    - assets/alphabets/W.png
+    - assets/alphabets/X.png
+    - assets/alphabets/Y.png
+    - assets/alphabets/Z.png
+
+    # Numbers
+    #   - assets/numbers/0.jpg
+    - assets/numbers/1.jpg
+    - assets/numbers/2.jpg
+    - assets/numbers/3.jpg
+    - assets/numbers/4.jpg
+    - assets/numbers/5.jpg
+    - assets/numbers/6.jpg
+    - assets/numbers/7.jpg
+    - assets/numbers/8.jpg
+    - assets/numbers/9.jpg
+    - assets/numbers/10.jpg
+
+    # Splash
+    - assets/splash/rocketgif.gif
+    - assets/splash/solar.gif
+
+    # Planets
+    - assets/planets/pla1.jpg
+
+    # Shapes
+    - assets/Shapes/Circle.jpg
+    - assets/Shapes/square.jpg
+    - assets/Shapes/Triangle.jpg
+    - assets/Shapes/rectangle.jpg
+    - assets/Shapes/star.jpg
+    - assets/Shapes/heart.jpg
+
